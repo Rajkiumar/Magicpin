@@ -1,0 +1,22 @@
+# Ignore sensitive environment files
+.env
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local task logs and brains
+.system_generated/
+scratch/
+task.md
+walkthrough.md
+implementation_plan.md
+results/
+
+# Editor configurations
+.vscode/
+.idea/
+*.swp
